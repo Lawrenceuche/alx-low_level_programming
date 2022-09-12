@@ -1,9 +1,10 @@
 #include <stdio.h>
 /**
  * main - program that prints all single digit numbers of base ten
- * starting from zero, followed by a new line.
+ * starting from zero,
+ * followed by a new line.
  * Return : 0
-*/
+ */
 int main(void)
 {
 	int n;
