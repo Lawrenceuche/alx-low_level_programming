@@ -24,7 +24,7 @@ int print_last_digit(int a)
 	{
 		return (l_Digit * -1);
 	}
-	_putchar(l_Digit - '0');
+	_putchar(l_Digit + '0');
 	_putchar('\n');
 	return (0);
 }
