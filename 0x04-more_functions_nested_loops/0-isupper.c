@@ -5,13 +5,15 @@
 /**
  * _isupper(int c) -  function that checks for uppercase character.
  * @c: parameter that is to be checked
- * Return: 0
+ * Return: 1 on success and 0 on fail
  */
 
 int _isupper(int c)
 {
 
-	if (c >= 'A' && c <= 'z')
+	c = 65;
+
+	if (c <= 90)
 	{
 		return (1);
 	}
