@@ -1,9 +1,13 @@
 #ifndef ABS(x)
 #define ABS(x)
-int main()
+/**
+* main - prints absolute value
+* Return: 0
+*/
+int main(void)
 {
-#if (ABS(x)<0)
+#if (ABS < 0)
 	(x) * (-1);
-#elif ABS(x)
+#else(x)
 }
 #endif
